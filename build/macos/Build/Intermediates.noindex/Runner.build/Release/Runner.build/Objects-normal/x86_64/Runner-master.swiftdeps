@@ -1,0 +1,10 @@
+version: "Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)"
+options: "99b440fa3da6ee2f3921ed749b7aefe8a79a1df7ac787ee75d9c1dd1109cbeba"
+build_start_time: [1699115182, 311379000]
+build_end_time: [1699115183, 244416000]
+inputs:
+  ? "/Users/regadabdellah/Documents/Github/FlutterProjects/open_with/build/macos/Build/Intermediates.noindex/Runner.build/Release/Runner.build/DerivedSources/GeneratedAssetSymbols.swift"
+  : [1699106474, 765626133]
+  "/Users/regadabdellah/Documents/Github/FlutterProjects/open_with/macos/Flutter/GeneratedPluginRegistrant.swift": [1699115178, 492947323]
+  "/Users/regadabdellah/Documents/Github/FlutterProjects/open_with/macos/Runner/AppDelegate.swift": [1698922061, 908460818]
+  "/Users/regadabdellah/Documents/Github/FlutterProjects/open_with/macos/Runner/MainFlutterWindow.swift": [1698922061, 909303049]

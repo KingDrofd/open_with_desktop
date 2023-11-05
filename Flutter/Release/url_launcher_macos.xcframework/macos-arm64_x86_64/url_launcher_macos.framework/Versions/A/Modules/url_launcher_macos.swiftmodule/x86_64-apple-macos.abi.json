@@ -1,0 +1,504 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "url_launcher_macos",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "FlutterMacOS",
+        "printedName": "FlutterMacOS",
+        "declKind": "Import",
+        "moduleName": "url_launcher_macos"
+      },
+      {
+        "kind": "Import",
+        "name": "FlutterMacOS",
+        "printedName": "FlutterMacOS",
+        "declKind": "Import",
+        "moduleName": "url_launcher_macos",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "url_launcher_macos"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SystemURLHandler",
+        "printedName": "SystemURLHandler",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "open",
+            "printedName": "open(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18url_launcher_macos16SystemURLHandlerP4openySb10Foundation3URLVF",
+            "mangledName": "$s18url_launcher_macos16SystemURLHandlerP4openySb10Foundation3URLVF",
+            "moduleName": "url_launcher_macos",
+            "genericSig": "<τ_0_0 where τ_0_0 : url_launcher_macos.SystemURLHandler>",
+            "sugared_genericSig": "<Self where Self : url_launcher_macos.SystemURLHandler>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "urlForApplication",
+            "printedName": "urlForApplication(toOpen:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.URL?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URL",
+                    "printedName": "Foundation.URL",
+                    "usr": "s:10Foundation3URLV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18url_launcher_macos16SystemURLHandlerP0A14ForApplication6toOpen10Foundation3URLVSgAH_tF",
+            "mangledName": "$s18url_launcher_macos16SystemURLHandlerP0A14ForApplication6toOpen10Foundation3URLVSgAH_tF",
+            "moduleName": "url_launcher_macos",
+            "genericSig": "<τ_0_0 where τ_0_0 : url_launcher_macos.SystemURLHandler>",
+            "sugared_genericSig": "<Self where Self : url_launcher_macos.SystemURLHandler>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:18url_launcher_macos16SystemURLHandlerP",
+        "mangledName": "$s18url_launcher_macos16SystemURLHandlerP",
+        "moduleName": "url_launcher_macos",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UrlLauncherPlugin",
+        "printedName": "UrlLauncherPlugin",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UrlLauncherPlugin",
+                "printedName": "url_launcher_macos.UrlLauncherPlugin",
+                "usr": "c:@M@url_launcher_macos@objc(cs)UrlLauncherPlugin"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SystemURLHandler",
+                "printedName": "url_launcher_macos.SystemURLHandler",
+                "hasDefaultArg": true,
+                "usr": "s:18url_launcher_macos16SystemURLHandlerP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:18url_launcher_macos17UrlLauncherPluginCyAcA16SystemURLHandler_pcfc",
+            "mangledName": "$s18url_launcher_macos17UrlLauncherPluginCyAcA16SystemURLHandler_pcfc",
+            "moduleName": "url_launcher_macos",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "register",
+            "printedName": "register(with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FlutterPluginRegistrar",
+                "printedName": "FlutterMacOS.FlutterPluginRegistrar",
+                "usr": "c:objc(pl)FlutterPluginRegistrar"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@url_launcher_macos@objc(cs)UrlLauncherPlugin(cm)registerWithRegistrar:",
+            "mangledName": "$s18url_launcher_macos17UrlLauncherPluginC8register4withySo07FlutterF9Registrar_p_tFZ",
+            "moduleName": "url_launcher_macos",
+            "static": true,
+            "objc_name": "registerWithRegistrar:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UrlLauncherPlugin",
+                "printedName": "url_launcher_macos.UrlLauncherPlugin",
+                "usr": "c:@M@url_launcher_macos@objc(cs)UrlLauncherPlugin"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@url_launcher_macos@objc(cs)UrlLauncherPlugin(im)init",
+            "mangledName": "$s18url_launcher_macos17UrlLauncherPluginCACycfc",
+            "moduleName": "url_launcher_macos",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@url_launcher_macos@objc(cs)UrlLauncherPlugin",
+        "mangledName": "$s18url_launcher_macos17UrlLauncherPluginC",
+        "moduleName": "url_launcher_macos",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NSWorkspace",
+        "printedName": "NSWorkspace",
+        "declKind": "Class",
+        "usr": "c:objc(cs)NSWorkspace",
+        "moduleName": "AppKit",
+        "isOpen": true,
+        "objc_name": "NSWorkspace",
+        "declAttributes": [
+          "ObjC",
+          "NonSendable",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SystemURLHandler",
+            "printedName": "SystemURLHandler",
+            "usr": "s:18url_launcher_macos16SystemURLHandlerP",
+            "mangledName": "$s18url_launcher_macos16SystemURLHandlerP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/regadabdellah\/.pub-cache\/hosted\/pub.dev\/url_launcher_macos-3.1.0\/macos\/Classes\/messages.g.swift",
+      "kind": "StringLiteral",
+      "offset": 698,
+      "length": 10,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/regadabdellah\/.pub-cache\/hosted\/pub.dev\/url_launcher_macos-3.1.0\/macos\/Classes\/messages.g.swift",
+      "kind": "StringLiteral",
+      "offset": 707,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/regadabdellah\/.pub-cache\/hosted\/pub.dev\/url_launcher_macos-3.1.0\/macos\/Classes\/messages.g.swift",
+      "kind": "StringLiteral",
+      "offset": 714,
+      "length": 20,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/regadabdellah\/.pub-cache\/hosted\/pub.dev\/url_launcher_macos-3.1.0\/macos\/Classes\/messages.g.swift",
+      "kind": "StringLiteral",
+      "offset": 733,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/regadabdellah\/.pub-cache\/hosted\/pub.dev\/url_launcher_macos-3.1.0\/macos\/Classes\/messages.g.swift",
+      "kind": "StringLiteral",
+      "offset": 740,
+      "length": 40,
+      "value": "\"Stacktrace: \""
+    },
+    {
+      "filePath": "\/Users\/regadabdellah\/.pub-cache\/hosted\/pub.dev\/url_launcher_macos-3.1.0\/macos\/Classes\/messages.g.swift",
+      "kind": "StringLiteral",
+      "offset": 779,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/regadabdellah\/.pub-cache\/hosted\/pub.dev\/url_launcher_macos-3.1.0\/macos\/Classes\/messages.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1054,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/regadabdellah\/.pub-cache\/hosted\/pub.dev\/url_launcher_macos-3.1.0\/macos\/Classes\/messages.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1054,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/regadabdellah\/.pub-cache\/hosted\/pub.dev\/url_launcher_macos-3.1.0\/macos\/Classes\/messages.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1054,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/regadabdellah\/.pub-cache\/hosted\/pub.dev\/url_launcher_macos-3.1.0\/macos\/Classes\/messages.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1382,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/regadabdellah\/.pub-cache\/hosted\/pub.dev\/url_launcher_macos-3.1.0\/macos\/Classes\/messages.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1478,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/regadabdellah\/.pub-cache\/hosted\/pub.dev\/url_launcher_macos-3.1.0\/macos\/Classes\/messages.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1908,
+      "length": 3,
+      "value": "128"
+    },
+    {
+      "filePath": "\/Users\/regadabdellah\/.pub-cache\/hosted\/pub.dev\/url_launcher_macos-3.1.0\/macos\/Classes\/messages.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2238,
+      "length": 3,
+      "value": "128"
+    },
+    {
+      "filePath": "\/Users\/regadabdellah\/.pub-cache\/hosted\/pub.dev\/url_launcher_macos-3.1.0\/macos\/Classes\/messages.g.swift",
+      "kind": "StringLiteral",
+      "offset": 3749,
+      "length": 48,
+      "value": "\"dev.flutter.pigeon.UrlLauncherApi.canLaunchUrl\""
+    },
+    {
+      "filePath": "\/Users\/regadabdellah\/.pub-cache\/hosted\/pub.dev\/url_launcher_macos-3.1.0\/macos\/Classes\/messages.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4004,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/regadabdellah\/.pub-cache\/hosted\/pub.dev\/url_launcher_macos-3.1.0\/macos\/Classes\/messages.g.swift",
+      "kind": "StringLiteral",
+      "offset": 4399,
+      "length": 45,
+      "value": "\"dev.flutter.pigeon.UrlLauncherApi.launchUrl\""
+    },
+    {
+      "filePath": "\/Users\/regadabdellah\/.pub-cache\/hosted\/pub.dev\/url_launcher_macos-3.1.0\/macos\/Classes\/messages.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4648,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/regadabdellah\/.pub-cache\/hosted\/pub.dev\/url_launcher_macos-3.1.0\/macos\/Classes\/UrlLauncherPlugin.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1541,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/regadabdellah\/.pub-cache\/hosted\/pub.dev\/url_launcher_macos-3.1.0\/macos\/Classes\/UrlLauncherPlugin.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1862,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/regadabdellah\/.pub-cache\/hosted\/pub.dev\/url_launcher_macos-3.1.0\/macos\/Classes\/UrlLauncherPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 976,
+      "length": 17,
+      "value": "\"url_launcher_macos.UrlLauncherPlugin\""
+    }
+  ]
+}
